@@ -1,0 +1,39 @@
+.contenedorser {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoser {
+    flex: 1;
+    padding-left: 50px;
+    box-sizing: border-box;
+
+    ul {
+        padding: 0;
+
+        li {
+            font-family: 'Times New Roman', Times, serif;
+            background-image: linear-gradient(to right, blanchedalmond, pink);
+            padding: 20px;
+            margin-bottom: 10px;
+            transition: 1s;
+            &:hover{
+                transform: translateX(60px);
+            }
+            
+            @media (max-width: 1441px) {
+                margin: 10px;
+            }
+        }
+    }
+
+}
+
+#fotoposturayoga p {
+    background-color: bisque;
+    width: 240px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+}

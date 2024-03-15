@@ -1,0 +1,35 @@
+.contenedornos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidonos {
+    flex: 1;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        background-image: linear-gradient(to top, blanchedalmond, pink);
+        padding: 30px;
+        margin: 0px 50px;
+
+        transition: 1s;
+        &:hover{
+        transform: scale(1.1);
+        }
+
+    }
+}
+    #fotoprofe p {
+        background-color: bisque;
+        width: 150px;
+        height: 50px;
+        padding: 10px;
+        border: 1px solid black;
+        margin-top: 20px;
+    }
+
+

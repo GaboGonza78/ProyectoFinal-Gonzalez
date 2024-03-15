@@ -1,0 +1,53 @@
+
+    @keyframes cambioDeColor {
+        0% {
+            background-color: blanchedalmond;
+        }
+    
+        50% {
+            background-color: pink;
+        }
+    
+        100% {
+            background-color: coral;
+        }
+    }    
+   
+    .contenedorcon {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .contenidocon {
+        flex: 1;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+       
+        h3 {
+            
+            font-family: 'Times New Roman', Times, serif;
+            padding: 20px;
+            margin: 10px;
+            animation-name: cambioDeColor;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-duration: 10s;
+            animation-delay: 1s;
+        }   
+    
+    #fotocontacto p {
+        background-color: bisque;
+        width: 240px;
+        height: 50px;
+        padding: 10px;
+        border: 1px solid black;
+        margin-top: 10px; 
+    }
+
+
+
+
+
+
+

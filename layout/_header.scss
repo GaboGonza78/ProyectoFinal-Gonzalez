@@ -1,0 +1,18 @@
+
+
+header {
+    
+    nav.navbar {
+        background-image: radial-gradient(circle, pink, blanchedalmond, lightblue); 
+        .nav-item:hover {
+            background-image: linear-gradient(to right, blanchedalmond,pink);
+        
+            .nav-item:active {
+                text-decoration: underline;
+
+                
+    
+            }
+        }
+    }
+}

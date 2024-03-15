@@ -1,0 +1,56 @@
+
+
+.contenedoryoga {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+   
+    ul{ 
+        li {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+            background-image: linear-gradient(to left, blanchedalmond, pink);
+            padding: 10px;
+            margin: 10px 0px;
+            transition: 1s;
+            &:hover{
+                transform: translateX(60px);
+            }
+        }
+    }
+}
+
+.contenidoyoga {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
+
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            max-height: 100vh;
+        }
+    
+}
+
+#fotoyoga {
+    
+    padding: 20px;
+
+
+    p {
+        background-color: bisque;
+        width: 150px;
+        height: 50px;
+        padding: 10px;
+        border: 1px solid black;
+        margin-top: 10px;
+    
+    }
+}

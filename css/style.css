@@ -1,0 +1,254 @@
+header nav.navbar {
+  background-image: radial-gradient(circle, pink, blanchedalmond, lightblue);
+}
+header nav.navbar .nav-item:hover {
+  background-image: linear-gradient(to right, blanchedalmond, pink);
+}
+header nav.navbar .nav-item:hover .nav-item:active {
+  text-decoration: underline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+}
+
+main h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+@media (max-width: 767px) {
+  main h1 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+}
+
+.contenedorinicio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.9);
+}
+
+.contenidoinicio {
+  flex: 1;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.contenidoinicio h2 {
+  font-family: "Times New Roman", Times, serif;
+  background-image: linear-gradient(to right, blanchedalmond, pink);
+  padding: 50px;
+  margin: 0 50px;
+  transition: 1s;
+}
+.contenidoinicio h2:hover {
+  transform: scale(1.1);
+}
+
+#yoga p {
+  background-color: bisque;
+  width: 180px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.contenedornos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenidonos {
+  flex: 1;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.contenidonos h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  background-image: linear-gradient(to top, blanchedalmond, pink);
+  padding: 30px;
+  margin: 0px 50px;
+  transition: 1s;
+}
+.contenidonos h2:hover {
+  transform: scale(1.1);
+}
+
+#fotoprofe p {
+  background-color: bisque;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.contenedoryoga {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.contenedoryoga ul li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  background-image: linear-gradient(to left, blanchedalmond, pink);
+  padding: 10px;
+  margin: 10px 0px;
+  transition: 1s;
+}
+.contenedoryoga ul li:hover {
+  transform: translateX(60px);
+}
+
+.contenidoyoga {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  flex-wrap: wrap;
+}
+.contenidoyoga img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100vh;
+}
+
+#fotoyoga {
+  padding: 20px;
+}
+#fotoyoga p {
+  background-color: bisque;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.contenedorser {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenidoser {
+  flex: 1;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+.contenidoser ul {
+  padding: 0;
+}
+.contenidoser ul li {
+  font-family: "Times New Roman", Times, serif;
+  background-image: linear-gradient(to right, blanchedalmond, pink);
+  padding: 20px;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+.contenidoser ul li:hover {
+  transform: translateX(60px);
+}
+@media (max-width: 1441px) {
+  .contenidoser ul li {
+    margin: 10px;
+  }
+}
+
+#fotoposturayoga p {
+  background-color: bisque;
+  width: 240px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+@keyframes cambioDeColor {
+  0% {
+    background-color: blanchedalmond;
+  }
+  50% {
+    background-color: pink;
+  }
+  100% {
+    background-color: coral;
+  }
+}
+.contenedorcon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenidocon {
+  flex: 1;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  margin: 10px;
+  animation-name: cambioDeColor;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+  animation-delay: 1s;
+}
+
+#fotocontacto p {
+  background-color: bisque;
+  width: 240px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background-image: radial-gradient(circle, blanchedalmond, pink);
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+footer a {
+  display: inline-block;
+  margin-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.boton-lineal {
+  background-image: linear-gradient(to top, purple, lightblue);
+  padding: 15px;
+  color: aqua;
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

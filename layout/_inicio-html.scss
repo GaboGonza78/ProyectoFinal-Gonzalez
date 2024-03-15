@@ -1,0 +1,47 @@
+
+
+.contenedorinicio {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+img {
+    box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.9);
+    -moz-box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.9);
+}
+
+.contenidoinicio {
+    flex: 1;
+    padding-left: 10px;
+    box-sizing: border-box;
+    
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+        background-image: linear-gradient(to right, blanchedalmond, pink);
+        padding: 50px;
+        margin: 0 50px;
+
+        transition: 1s;
+        &:hover{
+        transform: scale(1.1);
+        }
+    
+
+    
+    }
+}
+
+    #yoga p {
+            background-color: bisque;
+            width: 180px;
+            height: 50px;
+            padding: 10px;
+            border: 1px solid black;
+            margin-top: 10px;
+    }
+
+  
+
+  
+
